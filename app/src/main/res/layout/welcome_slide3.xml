@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen1"
+    android:elevation="4dp">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="84dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_discount"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/slide_3_title"
+        android:textAppearance="@style/share_rides"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:paddingLeft="@dimen/desc_padding"
+        android:paddingRight="@dimen/desc_padding"
+        android:text="@string/slide_3_desc"
+        android:textAlignment="center"
+        android:textAppearance="@style/share_autos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="45dp">
+            <View
+                android:id="@+id/ellipse_active"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="182dp"
+                android:background="@drawable/ellipse_active"/>
+            <View
+                android:id="@+id/ellipse_inactive1"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="155dp"
+                android:background="@drawable/ellipse_inactive" />
+            <View
+                android:id="@+id/ellipse_inactive2"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="128dp"
+                android:background="@drawable/ellipse_inactive" />
+
+        </RelativeLayout>-->
+
+
+</android.support.constraint.ConstraintLayout>

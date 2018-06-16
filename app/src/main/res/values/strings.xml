@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rickshaw</string>
+    <!--<string name="app_name">Intro Slider</string>-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">GET STARTED</string>
+
+    <string name="slide_1_title">Share Rides</string>
+    <string name="slide_1_desc">Share auto from your college to popular spots in the area.</string>
+
+    <string name="slide_2_title">Meet New People</string>
+    <string name="slide_2_desc">Meet new and interesting people from colleges in and around yours.</string>
+
+    <string name="slide_3_title">Save Money</string>
+    <string name="slide_3_desc">Save up to Rs.4000 annually</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
